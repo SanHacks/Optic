@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+  ~ /**
+  ~  * Copyright © Vaimo Group. All rights reserved.
+  ~  * See LICENSE_VAIMO.txt for license details.
+  ~  */
+  -->
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Communication/etc/communication.xsd">
+    <topic name="updatestocks" request="string" response="string">
+        <handler name="updatestocks.handler" type="Gundo\Optic\Model\Queue\Handler\Handler" method="execute"/>
+    </topic>
+</config>

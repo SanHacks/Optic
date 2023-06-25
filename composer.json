@@ -1,0 +1,27 @@
+{
+  "name": "gundo/module-optic",
+  "version": "1.0.0",
+  "description": "N/A",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*",
+    "magento/module-inventory-catalog-search": "1.2.*",
+    "magento/module-inventory-catalog-search-bundle-product": "1.0.*"
+  },
+  "license": [
+    "Massachusetts Institute of Technology License (MITL)"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Gundo\\Optic\\": ""
+    }
+  },
+  "authors": [
+    {
+      "name": "Gundo Sifhufhi"
+    }
+    ]
+}
